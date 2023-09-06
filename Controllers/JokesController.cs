@@ -58,6 +58,7 @@ namespace JokesWebApp.Controllers
         }
 
         // GET: Jokes/Create
+        // Add [Authorize] to authorization - can't add joke till log in
         public IActionResult Create()
         {
             return View();
